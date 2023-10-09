@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,900;1,6..12,400;1,6..12,800&family=Nunito:wght@200&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+/* Center the wine card container */
+#api-fetch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Center the title, image, and description */
+.wine-card {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.wine-card img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Center the image horizontally */
+}
